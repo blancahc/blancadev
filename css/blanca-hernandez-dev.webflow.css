@@ -140,7 +140,6 @@ figcaption {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  position: fixed;
   background-color: #000;
   opacity: 0.6;
 }
