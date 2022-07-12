@@ -1201,6 +1201,7 @@ figcaption {
   text-align: center;
 }
 .services-cards {
+  margin: 0 30px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -1208,8 +1209,7 @@ figcaption {
 .card {
   background-color: white;
   height: 300px;
-  width: 30%;
-  max-width: 400px;
+  width: 32%;
   min-width: 320px;
   flex: auto;
   border: solid 3px #171717;
