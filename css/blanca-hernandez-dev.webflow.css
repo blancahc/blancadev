@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -153,7 +157,7 @@ figcaption {
 
 .section.hero-section {
   height: auto;
-  margin: 60px auto 0px;
+  margin: auto;
   padding-top: 0px;
 }
 
@@ -738,7 +742,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -778,7 +782,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -831,8 +835,7 @@ figcaption {
 }
 
 .text-2xl {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
   font-family: Switzer, sans-serif;
   font-size: 50px;
   line-height: 110%;
@@ -873,7 +876,6 @@ figcaption {
 }
 
 .paragraph-leadtext {
-  margin-bottom: 0px;
   font-size: 20px;
   line-height: 170%;
   font-weight: 600;
@@ -1040,7 +1042,7 @@ figcaption {
 .button {
   display: inline-block;
   overflow: visible;
-  margin-top: 48px;
+  margin: 20px auto 120px;
   padding: 8px 32px;
   border-style: solid;
   border-width: 1px;
@@ -1208,7 +1210,6 @@ figcaption {
 }
 .card {
   background-color: white;
-  height: 300px;
   width: 32%;
   min-width: 320px;
   flex: auto;
@@ -1218,10 +1219,11 @@ figcaption {
   text-align: center;
 }
 .card p {
-  color:#aaa
+  color:#aaa;
 }
 .card img {
   width: 20%;
+  margin: 10px 0;
 }
 @media screen and (max-width: 991px) {
   h1 {
