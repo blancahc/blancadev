@@ -1198,7 +1198,9 @@ figcaption {
 .footer-link-2:hover {
   text-decoration: underline;
 }
-
+.padding-left {
+  padding-left: 600px;
+}
 .services {
   text-align: center;
 }
