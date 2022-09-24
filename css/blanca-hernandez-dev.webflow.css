@@ -913,16 +913,9 @@ figcaption {
 }
 
 .heading-3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 128px;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
   letter-spacing: -0.1vw;
+  margin-bottom: 10%;
+  line-height: 1em;
 }
 
 .case {
@@ -1116,6 +1109,10 @@ figcaption {
   font-size: 12px;
 }
 
+.padding-left {
+  padding-left: 17%;
+}
+
 .heading-5 {
   margin-bottom: 0px;
   -webkit-align-self: center;
@@ -1198,9 +1195,7 @@ figcaption {
 .footer-link-2:hover {
   text-decoration: underline;
 }
-.padding-left {
-  padding-left: 600px;
-}
+
 .services {
   text-align: center;
 }
@@ -1396,6 +1391,9 @@ figcaption {
   .footer-2 {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .padding-left {
+    padding-left: 15%;
   }
 }
 
@@ -1614,7 +1612,6 @@ figcaption {
     padding-right: 24px;
     padding-left: 24px;
   }
-
   .text-large {
     font-size: 20px;
     letter-spacing: -0.25px;
