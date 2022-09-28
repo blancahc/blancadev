@@ -782,7 +782,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 60%;
+  height: 500px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -909,7 +910,9 @@ figcaption {
 }
 
 .project-image {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  height: 550px;
+  width: 100%;
 }
 
 .heading-3 {
